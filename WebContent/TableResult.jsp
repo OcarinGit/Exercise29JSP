@@ -16,7 +16,7 @@
 	int table = Integer.parseInt(request.getParameter("txtTable")); 
 	int range = Integer.parseInt(request.getParameter("txtRange"));
 	
-	for(int j=0;j<=10;j++)
+	for(int j=0;j<=range;j++)
 	{
 		out.append("<p>");
 		out.append(String.format("%d X %d = %d", table,j,table*j));
